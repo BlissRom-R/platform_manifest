@@ -261,7 +261,7 @@
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
-  <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libcups" name="LineageOS/android_external_libcups" groups="pdk-cw-fs,pdk-fs" revision="lineage-18.1" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
