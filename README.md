@@ -40,8 +40,7 @@ Initializing Repository
 
 **Repo initialization**
     
-    ## Releases Repo ##
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b r --git-lfs
+    repo init -u https://github.com/BlissRom-R/platform_manifest.git -b r --git-lfs
 
 **Sync repo**
 
