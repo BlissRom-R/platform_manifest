@@ -9,6 +9,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="s"
+           fetch="https://github.com/SwapnilVicky" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -785,4 +788,6 @@
 
   <include name="bliss.xml" />
   <include name="los.xml" />
+  <include name="snippets/devicetrees.xml" />
+
 </manifest>
