@@ -4,7 +4,6 @@
 <!-- Sync Device Trees -->
 <project path="device/xiaomi/miatoll" name="platform_device_xiaomi_miatoll" remote="BlissRoms-Devices" revision="q" />
 <project path="device/xiaomi/sm6250-common" name="platform_device_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="q" />
-<project path="vendor/aeonax/ANXCamera " name="vendor_aeonax_ANXCamera" remote="s" revision="10" />
 <project path="vendor/xiaomi" name="platform_vendor_xiaomi_sm6250-common" remote="BlissRoms-Devices" revision="q" />
 <project path="kernel/xiaomi/sm6250" name="platform_kernel_xiaomi_sm6250" remote="BlissRoms-Devices" revision="q" />
 
