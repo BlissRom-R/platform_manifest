@@ -11,6 +11,9 @@
 
   <remote  name="s"
            fetch="https://github.com/SwapnilVicky" />
+  
+  <remote  name="blissroms-miatoll"
+           fetch="https://github.com/blissroms-miatoll" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -789,5 +792,6 @@
   <include name="bliss.xml" />
   <include name="los.xml" />
   <include name="snippets/devicetrees.xml" />
+  <include name="snippets/blissroms.xml" />
 
 </manifest>

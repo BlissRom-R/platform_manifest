@@ -208,26 +208,15 @@
   <project path="libcore" name="platform_libcore" remote="BlissRoms" />
 
   <!-- Apps -->
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
   <project path="packages/apps/BlurView" name="platform_packages_apps_BlurView" remote="BlissRoms" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="BlissRoms" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
-  <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" /> 
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="BlissRoms" />
-  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
-  <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
-  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
 
   <!-- External -->
@@ -246,13 +235,8 @@
   <project path="external/zlib" name="platform_external_zlib" remote="BlissRoms" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" />
   <project path="frameworks/opt/slimrecent" name="platform_frameworks_opt_slimrecents" remote="BlissRoms" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
@@ -273,10 +257,6 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="BlissRoms" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="BlissRoms" />
 
-  <!-- Interfaces -->
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
-  <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
-
   <!-- InputMethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
   
@@ -285,40 +265,27 @@
   <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="BlissRoms" />
 
   <!-- Providers -->
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
 
   <!-- Services -->
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="BlissRoms" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
   <!-- System -->
   <project path="system/apex" name="platform_system_apex" remote="BlissRoms" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
-  <project path="system/keymaster" name="platform_system_keymaster" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
   <project path="system/bpf" name="platform_system_bpf" remote="BlissRoms" />
 
   <!-- Sepolicy -->
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="device/lineage/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" />
   <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />-->
 
   <!-- Vendor -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="q10" />
   <project path="vendor/google-customization" name="platform_vendor_google-customization" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
   <project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" />
 

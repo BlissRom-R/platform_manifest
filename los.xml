@@ -6,6 +6,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="los" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="los" />
   
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" revision="master" clone-depth="1" remote="los" />
@@ -122,6 +123,8 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="los" />
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
@@ -140,9 +143,13 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
   
+  <!-- Sepolicy -->
+ <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
+
   <!-- System Repos -->
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="los" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="los" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="los" />
 
   <!-- Vendor -->
